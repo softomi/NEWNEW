@@ -1,0 +1,24 @@
+Assitment OOP_01 Implementation of Encapsulation.
+Create class  EmployeeSalary
+You join as an engineer will get salary as per below components.
+below fields make read and write.
+-------------------------------------------
+employeeName
+employeeEmail
+employeeDesignation
+-------------------------------------------
+below field make as writeOnly
+basicSalary 
+
+below field make as ReadOnly
+--------------------------------------------
+HRA(house rent allowence) - 40% Fixed of basic salary.
+DA (dearness allowance)   - 12% Fixed of basic salary.
+TA(Travling allowance)    - 8%  Fixed of basic salary
+TDS Tax Deducted at source- 30% Fixed of gross salary
+PF(Provident fund)       -  12.50%
+ProfessionTax            - 200 rupees only
+GrossSalary              -  grossSalary=HRA+DA+TA+PF+TDS.
+Net Salary               - netSalary=grosSalary-PF-ProfessionalTax-TDS
+
+ show salary details of 2 employee
